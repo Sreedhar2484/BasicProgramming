@@ -1,0 +1,14 @@
+let ran1 = Math.floor(Math.random() * 99) + 10;
+let ran2 = Math.floor(Math.random() * 99) + 10;
+let ran3 = Math.floor(Math.random() * 99) + 10;
+let ran4 = Math.floor(Math.random() * 99) + 10;
+let ran5 = Math.floor(Math.random() * 99) + 10;
+console.log("random number1 : " + ran1);
+console.log("random number2 : " + ran2);
+console.log("random number3 : " + ran3);
+console.log("random number4 : " + ran4);
+console.log("random number5 : " + ran5);
+let sum = ran1+ran2+ran3+ran4+ran5;
+let avg = sum/5;
+console.log("sum of radom 2 digit values : " + sum);
+console.log("avg of radom 2 digit values : " + avg);
